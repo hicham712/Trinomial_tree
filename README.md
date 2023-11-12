@@ -7,6 +7,7 @@ The xlsm file is the user interface to price options and to print trees, error w
 American options are also priceable using basic lattice model tools.
 
 This code, coded in classes both in Python and VBA replicates the trinomial pricing model for equity options that distributes dividend.
+It also involves the computing of greeks for the options and comparaison to B&S.
 
 The trinomial pricing model is as follows : 
 
