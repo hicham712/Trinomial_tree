@@ -1,7 +1,12 @@
 # Trinomial_tree
 Implementation of a trinomial tree pricing model in VBA and Python
 
-This code, coded in classes both in Python and VBA replicates the trinomial pricing model for equity options that distributes dividend
+xl_wings must be well configured for this to work.
+
+The xlsm file is the user interface to price options and to print trees, error with B&S and performance, comparing VBA and Python.
+American options are also priceable using basic lattice model tools.
+
+This code, coded in classes both in Python and VBA replicates the trinomial pricing model for equity options that distributes dividend.
 
 The trinomial pricing model is as follows : 
 
@@ -9,7 +14,7 @@ $$
 dS_t = S_t r dt + S_t \sigma dW_t - D_t
 $$
 
-With Dt a discrete dividend and the ex-div date is a parameter of the pricing model;
+With Dt a discrete dividend and the ex-div date is a parameter of the pricing model.
 
 We use the following assumptions:
 - Time steps are all equal: Δt
@@ -41,3 +46,6 @@ $$
 
 - solving those equations with the sum of probabilities being 1 gives the formulas used in the code
 
+The discrete dividend makes it so that on ex-div dates the middle nodes cannot be made and must be connected to another node.
+
+The code also involves tree pruning, which removes nodes with extremely low probabilities.
