@@ -5,4 +5,4 @@ This code, coded in classes both in Python and VBA replicates the trinomial pric
 
 The trinomial pricing model is as follows : 
 
-𝑆𝑡𝑖 = 𝑆𝑡𝑖 𝑒𝑟Δ𝑡 − 𝐷𝑡𝑖+1
+𝑆_𝑡𝑖 = 𝑆_𝑡𝑖 𝑒𝑟Δ𝑡 − 𝐷𝑡𝑖+1
