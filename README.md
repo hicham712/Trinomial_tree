@@ -36,5 +36,5 @@ $$
 - The second moment : 
 
 $$
-V_{i+1,j}^2 + E_{i+1,j} = p_{up} \left(S_{i+1,j'+1}^2 + 1\right) + p_{mid} \left(S_{i+1,j'}^2\right) + p_{down} \left(S_{i+1,j'-1}^2 - 1\right)
+V_{i+1,j}^2 + E_{i+1,j} = p_{up} \left(S_{i+1,j'+1}^2 + 1\right) + p_{mid} \left(S_{i+1,j'}^2\right) + p_{down} \left(S_{i+1,j'-1}^2 - 1\right) = E\left[\left(S_{t,i+1} - E\left[S_{t,i+1} \middle| S_{t,i}\right]\right)^2 \middle| S_{t,i}\right]
 $$
