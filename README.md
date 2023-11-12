@@ -18,4 +18,4 @@ We use the following assumptions:
 - The next middle node is the closer to the forward price
 - α is defined by a multiple of the standard deviation over one time step ≈ St σ sqr(Δt):  Si,j+1 - Si,j ≈ sqr(3) StdDev
 - Divide by Si,j: α ≈ 1+ sqr(3) StdDev / Si,j
-- The actual formula is: 𝛼 = 𝑒𝑟Δ𝑡+𝜎 3Δ𝑡
+- The actual formula is:$$ 𝛼 = 𝑒^(𝑟Δ𝑡+𝜎3Δ𝑡) $$
