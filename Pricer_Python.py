@@ -5,12 +5,12 @@ Created on Thu Nov 24 20:29:01 2022
 @author: milos
 """
 import time
-from arbre import Arbre
-from market import Market
-from contract import Contract
-from functions import pricer,BS
+from py_classes.arbre import Arbre
+from py_classes.market import Market
+from py_classes.contract import Contract
+from py_classes.functions import pricer,BS
 import xlwings as xw
-from affichage import afficher_proba,afficher_prix,afficher_variance,afficher_forward,afficher_arbre
+from py_classes.affichage import afficher_proba,afficher_prix,afficher_variance,afficher_forward,afficher_arbre
 
 @xw.func
 def main():

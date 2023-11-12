@@ -5,11 +5,11 @@ Created on Wed Dec  7 21:33:12 2022
 @author: marko
 """
 
-from market import Market
-from contract import Contract
-from arbre import Arbre
+from py_classes.market import Market
+from py_classes.contract import Contract
+from py_classes.arbre import Arbre
 import time
-from functions import pricer,BS
+from py_classes.functions import pricer,BS
 import xlwings as xw
 import matplotlib.pyplot as plt
     

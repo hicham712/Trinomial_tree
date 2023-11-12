@@ -5,7 +5,7 @@ Created on Thu Nov 24 20:25:00 2022
 @author: milos
 """
 import math as ma
-from functions import find_next_mid
+from py_classes.functions import find_next_mid
 import xlwings as xw
 
 class Noeud: 

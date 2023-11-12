@@ -5,7 +5,7 @@ Created on Thu Nov 24 20:25:55 2022
 @author: milos
 """
 import math as ma
-from noeud import Noeud
+from py_classes.noeud import Noeud
 import xlwings as xw
 
 
