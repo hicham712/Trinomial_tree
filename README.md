@@ -21,5 +21,5 @@ We use the following assumptions:
 - The actual formula is: 
 
 $$ 
-𝛼 = 𝑒^(𝑟Δ𝑡+𝜎3Δ𝑡) 
+𝛼 = 𝑒xp(𝑟Δ𝑡+𝜎3Δ𝑡) 
 $$
