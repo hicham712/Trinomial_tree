@@ -5,6 +5,6 @@ This code, coded in classes both in Python and VBA replicates the trinomial pric
 
 The trinomial pricing model is as follows : 
 
-$$
+$
 dS_t = S_t r dt + S_t \sigma dW_t - D_t
-$$
+$
