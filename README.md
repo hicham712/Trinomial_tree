@@ -28,6 +28,7 @@ For each node we do the following :
 - The probabilities are specified so as to ensure that the price of the underlying evolves as a martingale, while the moments – considering node spacing and probabilities – are matched to those of the log-normal distribution
 
 - The first moment : 
+
 $$ 
 E_{i+1,j} = p_{up} S_{i+1,j'+1} + p_{mid} S_{i+1,j'} + p_{down} S_{i+1,j'-1}
 $$ 
