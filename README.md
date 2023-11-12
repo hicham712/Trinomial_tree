@@ -19,6 +19,7 @@ We use the following assumptions:
 - α is defined by a multiple of the standard deviation over one time step ≈ St σ sqr(Δt):  Si,j+1 - Si,j ≈ sqr(3) StdDev
 - Divide by Si,j: α ≈ 1+ sqr(3) StdDev / Si,j
 - The actual formula is: 
+
 $$ 
 𝛼 = 𝑒^(𝑟Δ𝑡+𝜎3Δ𝑡) 
 $$
