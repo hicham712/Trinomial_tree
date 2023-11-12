@@ -30,6 +30,5 @@ For each node we do the following :
 - The first moment : 
 
 $$ 
-E_{i+1,j} = p_{up} S_{i+1,j'+1} + p_{mid} S_{i+1,j'} + p_{down} S_{i+1,j'-1} = E[S_{t,i+1} | S_{t,i}]
-
+E_{i+1,j} = p_{up} S_{i+1,j'+1} + p_{mid} S_{i+1,j'} + p_{down} S_{i+1,j'-1} = E(S_{t,i+1} | S_{t,i})
 $$ 
