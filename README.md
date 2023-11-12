@@ -32,3 +32,9 @@ For each node we do the following :
 $$ 
 E_{i+1,j} = p_{up} S_{i+1,j'+1} + p_{mid} S_{i+1,j'} + p_{down} S_{i+1,j'-1} = E(S_{t,i+1} | S_{t,i})
 $$ 
+
+- The second moment : 
+
+$$
+V_{i+1,j}^2 + E_{i+1,j} = p_{up} \left(S_{i+1,j'+1}^2 + 1\right) + p_{mid} \left(S_{i+1,j'}^2\right) + p_{down} \left(S_{i+1,j'-1}^2 - 1\right)
+$$
